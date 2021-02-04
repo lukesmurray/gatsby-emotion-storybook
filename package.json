@@ -1,9 +1,4 @@
 {
-  "babelMacros": {
-    "twin": {
-      "preset": "emotion"
-    }
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
