@@ -14,6 +14,7 @@ export const exampleStory = () => (
     ]}
   >
     <div tw="flex flex-col justify-center h-full space-y-5">
+      <Header />
       <Button isPrimary>Submit</Button>
       <Button isSecondary>Cancel</Button>
       <Button isSmall>Close</Button>

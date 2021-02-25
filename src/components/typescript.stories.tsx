@@ -1,6 +1,6 @@
 import React from 'react'
 import tw from 'twin.macro'
-import { Button, Layout, Logo } from '.'
+import { Button, Header, Layout, Logo } from '.'
 
 export default {
   title: 'ExampleTypescriptStory',
@@ -14,6 +14,7 @@ export const exampleTypescriptStory = () => (
     ]}
   >
     <div tw="flex flex-col justify-center h-full space-y-5">
+      <Header />
       <Button isPrimary>Submit</Button>
       <Button isSecondary>Cancel</Button>
       <Button isSmall>Close</Button>
